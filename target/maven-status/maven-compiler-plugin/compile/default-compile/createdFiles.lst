@@ -1,0 +1,5 @@
+com/adoy/todo/controller/TodoController.class
+com/adoy/todo/modeles/Todo.class
+com/adoy/todo/repository/TodoRepository.class
+com/adoy/todo/modeles/Todo$TodoBuilder.class
+com/adoy/todo/TodoApplication.class
