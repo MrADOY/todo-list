@@ -30,7 +30,7 @@ public class TodoController {
 
 	@GetMapping("")
 	public String test() {
-		return "Hello world";
+		return "Bonjour monde";
 	}
 	
 	@GetMapping("/todos")
