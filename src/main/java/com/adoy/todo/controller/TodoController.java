@@ -28,6 +28,11 @@ public class TodoController {
 	@Autowired
 	TodoRepository repository;
 
+	@GetMapping("")
+	public String test() {
+		return "Hello world";
+	}
+	
 	@GetMapping("/todos")
 	public List<Todo> getAllTodos() {
 		return repository.findAll().stream()
